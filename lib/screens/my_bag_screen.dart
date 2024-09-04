@@ -10,28 +10,26 @@ class MyBagScreen extends StatefulWidget {
 }
 
 class MyBagScreenState extends State<MyBagScreen> {
-  // All items will use the same image URL
-  String imageUrl = 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg';
-
+  // All items with respective image URLs
   List<CartItem> cartItems = [
     CartItem(
         name: 'Pullover',
         color: 'Black',
         size: 'L',
         price: 51.0,
-        imageUrl: 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg'),
+        imageUrl: 'https://img.freepik.com/premium-photo/blank-black-tshirt-hanger-white-background_996201-2801.jpg?w=1380'),
     CartItem(
         name: 'T-Shirt',
         color: 'Gray',
         size: 'L',
         price: 30.0,
-        imageUrl: 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg'),
+        imageUrl: 'https://img.freepik.com/free-photo/young-adult-pressing-buzzer-button_23-2149586599.jpg?t=st=1725483023~exp=1725486623~hmac=964585327e3fc734c95491b54933d2801b6c02649ffe8a3335bae4ed55fe232c&w=826'),
     CartItem(
         name: 'Sport Dress',
         color: 'Black',
         size: 'M',
         price: 43.0,
-        imageUrl: 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg'),
+        imageUrl: 'https://img.freepik.com/premium-photo/highresolution-4k-white-tshirt-mockup-colorful-background-ideal-apparel-design-brandi_1193781-1729.jpg?w=1380'),
   ];
 
   // Calculate the total amount
