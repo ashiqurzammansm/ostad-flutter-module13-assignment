@@ -21,8 +21,9 @@ class CartItemWidget extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Row(
           children: [
+            // Display the product image here
             Image.network(
-              'https://via.placeholder.com/80', // Placeholder for product image
+              item.imageUrl, // Use the imageUrl from the CartItem model
               width: 80,
               height: 80,
               fit: BoxFit.cover,

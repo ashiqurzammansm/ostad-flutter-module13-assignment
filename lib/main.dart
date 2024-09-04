@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/my_bag_screen.dart';
 
 void main() {
-  runApp(ShoppingBagApp());
+  runApp(const ShoppingBagApp());
 }
 
 class ShoppingBagApp extends StatelessWidget {
@@ -10,7 +10,7 @@ class ShoppingBagApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyBagScreen(),
     );

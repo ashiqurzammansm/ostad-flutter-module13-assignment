@@ -10,10 +10,28 @@ class MyBagScreen extends StatefulWidget {
 }
 
 class MyBagScreenState extends State<MyBagScreen> {
+  // All items will use the same image URL
+  String imageUrl = 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg';
+
   List<CartItem> cartItems = [
-    CartItem(name: 'Pullover', color: 'Black', size: 'L', price: 51.0),
-    CartItem(name: 'T-Shirt', color: 'Gray', size: 'L', price: 30.0),
-    CartItem(name: 'Sport Dress', color: 'Black', size: 'M', price: 43.0),
+    CartItem(
+        name: 'Pullover',
+        color: 'Black',
+        size: 'L',
+        price: 51.0,
+        imageUrl: 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg'),
+    CartItem(
+        name: 'T-Shirt',
+        color: 'Gray',
+        size: 'L',
+        price: 30.0,
+        imageUrl: 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg'),
+    CartItem(
+        name: 'Sport Dress',
+        color: 'Black',
+        size: 'M',
+        price: 43.0,
+        imageUrl: 'https://img.freepik.com/premium-vector/logo-google_798572-207.jpg'),
   ];
 
   // Calculate the total amount
